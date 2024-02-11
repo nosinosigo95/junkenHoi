@@ -16,7 +16,6 @@ class Junken
         end
         return @player_hand = @player_hand_str.to_i
     end
-
     # comの手を決める
     def computer
         return @com_hand = rand(3).to_i
@@ -31,7 +30,6 @@ class Junken
             return "draw"
         end
     end
-
     def displayHand
         hand = {0 => "グー", 1 => "チョキ", 2 => "パー"}
         puts "ホイ!"

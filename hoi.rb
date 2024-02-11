@@ -14,7 +14,6 @@ class Hoi
     def computer
         return @com_direction =  rand(4).to_i
     end
-
     def judge(junken_winner)
         if @player_direction == @com_direction
             return junken_winner

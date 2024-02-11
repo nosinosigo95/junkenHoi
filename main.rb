@@ -10,6 +10,7 @@ loop do
     if player_hand == 3 #戦わない
         break
     end
+    
     junken.computer
 
     junken.displayHand
